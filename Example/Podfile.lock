@@ -1,0 +1,16 @@
+PODS:
+  - LiangTools (0.1.0)
+
+DEPENDENCIES:
+  - LiangTools (from `../`)
+
+EXTERNAL SOURCES:
+  LiangTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LiangTools: d01019a41a5ea0e4149d12048dbb500fc79d7020
+
+PODFILE CHECKSUM: 23b6f7dc4d31b17238b28a6a6a5db49e4766735a
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module Pods_LiangTools_Tests {
+  umbrella header "Pods-LiangTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

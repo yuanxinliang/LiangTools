@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8962FF3F45A35852BF57AE35 /* Pods_LiangTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiangTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BF724607EEDB811C8EB7A69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		96D42962B02174FFB240B4C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8BF724607EEDB811C8EB7A69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		96D42962B02174FFB240B4C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9BCF4B1FC520A63810B277BF /* Pods-LiangTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiangTools_Example.release.xcconfig"; path = "Target Support Files/Pods-LiangTools_Example/Pods-LiangTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A65F7155616EE2E419FFD95C /* LiangTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LiangTools.podspec; path = ../LiangTools.podspec; sourceTree = "<group>"; };
+		A65F7155616EE2E419FFD95C /* LiangTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LiangTools.podspec; path = ../LiangTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B169FC9E5896186E8DF6EA72 /* Pods-LiangTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiangTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-LiangTools_Example/Pods-LiangTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				19EBEF374A3C7E0C80A1D0AB /* Pods-LiangTools_Tests.debug.xcconfig */,
 				62564AC87A3F70AF622CD720 /* Pods-LiangTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
